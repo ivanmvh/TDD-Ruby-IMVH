@@ -2,6 +2,7 @@ require_relative 'solver'
 
 @solver = Solver.new
 
+p @solver.factorial(-1) #   eq 1
 p @solver.factorial(0) #   eq 1
 p @solver.factorial(1) #   eq 1
 p @solver.factorial(2) #   eq 2
